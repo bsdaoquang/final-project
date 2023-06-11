@@ -1,13 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import { HomeScreen } from './screens';
 
 function App()
 {
-  return (
-    <>
-      <h1>Hello world!</h1>
-    </>
-  );
+  return <HomeScreen />
 }
 
 export default App;
